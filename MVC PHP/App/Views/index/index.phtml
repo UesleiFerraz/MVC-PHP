@@ -1,0 +1,9 @@
+<?php
+    echo 'index<br/>';
+
+    foreach ($this->view->dados as $item => $produto) {
+        echo $produto['id'].'<br/>';
+        echo $produto['descricao'].'<br/>';
+        echo $produto['preco'].'<br/>';
+    }
+?>
